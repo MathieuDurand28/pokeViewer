@@ -9,19 +9,51 @@
     --text-color-danger: rgb(255,23,23);
     --text-color-granted: rgb(1,255,100);
     --text-color-grey: rgb(100,100,100);
+    --text-color-yellow: rgb(252, 223, 5);
     --text-size-small: 8px;
     --text-size-medium: 16px;
     --text-size-big: 24px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-#title{
-    color: var(--text-color-std);
+.title{
+    color: var(--text-color-yellow);
     font-size: var(--text-size-big);
+    margin-bottom: 0;
 }
-#version {
+.ss-title{
+    color: var(--text-color-std);
+    font-size: var(--text-size-medium);
+}
+input {
+    margin-top: 20px;
+    width: 70%;
+    border-radius: 10px;
+    text-align: center;
+}
+.version {
     color: var(--text-color-grey);
     font-size: var(--text-size-small);
+}
+
+.search-area{
+    margin-top: 30px;
+}
+
+.button{
+    color: var(--text-color-grey);
+    font-size: var(--text-size-medium);
+    background-color: var(--text-color-yellow);
+    width: 150px;
+    height: 20px;
+    border-radius: 10px;
+    margin-left: 105px;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: var(--text-color-grey);
+    color: var(--text-color-yellow);
+    transition-duration: 0.5s;
 }
 
 
