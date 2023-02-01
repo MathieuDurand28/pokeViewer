@@ -1,0 +1,28 @@
+:root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    --text-color-std: rgb(255,255,255);
+    --text-color-danger: rgb(255,23,23);
+    --text-color-granted: rgb(1,255,100);
+    --text-color-grey: rgb(100,100,100);
+    --text-size-small: 8px;
+    --text-size-medium: 16px;
+    --text-size-big: 24px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#title{
+    color: var(--text-color-std);
+    font-size: var(--text-size-big);
+}
+#version {
+    color: var(--text-color-grey);
+    font-size: var(--text-size-small);
+}
+
+
+
