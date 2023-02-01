@@ -56,5 +56,67 @@ input {
     transition-duration: 0.5s;
 }
 
+.view {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
+.trait {
+    border-bottom: 1px solid var(--text-color-yellow);
+    margin: 5px 0;
+}
 
+.view .img_pokemon {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.pok-title{
+    color: var(--text-color-yellow);
+    font-size: var(--text-size-medium);
+}
+
+.specs_title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: var(--text-color-granted);
+
+}
+.specs_evol {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: var(--text-color-std);
+}
+
+.name {
+    color: var(--text-color-danger);
+}
+
+.div_types {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: var(--text-color-std);
+}
+
+.img_type {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.footer {
+    color: var(--text-color-grey);
+    font-size: var(--text-size-small);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+}
