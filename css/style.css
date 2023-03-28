@@ -11,6 +11,7 @@
     --text-color-grey: rgb(100,100,100);
     --text-color-yellow: rgb(252, 223, 5);
     --text-size-small: 8px;
+    --text-size-small-plus: 12px;
     --text-size-medium: 16px;
     --text-size-big: 24px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -118,10 +119,15 @@ input {
 
 .footer {
     color: var(--text-color-grey);
-    font-size: var(--text-size-small);
+    font-size: var(--text-size-small-plus);
     position: fixed;
     left: 0;
     bottom: 0;
+    margin-bottom: 10px;
     width: 100%;
+}
 
+.footer a {
+    color: cyan;
+    text-decoration: none;
 }
